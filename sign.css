@@ -1,0 +1,171 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;  /* Center vertically */
+    background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/10974.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.sign{
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background-color: white;
+    padding-left: 30px;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+lable {
+    font-size: 13px;
+    margin-left: 5px;
+    
+}
+
+.info{
+    font-size: 15px;
+    border: none;
+    border-bottom: 0.5px solid grey;
+    background: transparent;
+    width: 90%;
+    height: 30px;
+    align-items: center;
+    padding-left: 10px;
+    outline: none;
+    color: rgb(0, 99, 192);
+ }
+
+ #sub{
+    width: 90%;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    color: azure;
+    background: linear-gradient(to right, rgba(32, 61, 190, 0.781), rgba(255, 72, 0, 0.918));
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transition: transform 1s ease-in-out;
+ }
+ @keyframes colorPulse {
+    0% { background-color: red; }
+    50% { background-color: yellow; }
+    100% { background-color: red; }
+}
+
+ #sub:hover{
+    animation: colorPulse 1s infinite; 
+ }
+
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+i{
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+   
+}
+
+/* Button styles */
+.ch1, .ch2, .ch3 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 0 10px; /* Adds spacing between buttons */
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Center icon vertically */
+    justify-content: center; /* Center icon horizontally */
+    border: none; /* Remove default button border */
+    cursor: pointer;
+}
+
+.ch1{
+    color: white;
+    background-color: brown;
+}
+.ch2 i{
+    color:rgb(0, 38, 207);
+    background-color: white;
+    font-size: 30px;
+}
+
+.ch3 {
+    color:white;
+    background-color: rgb(6, 146, 240);
+    font-size: 30px;
+}
+
+.ch1:hover{
+    color: brown;
+    background-color:  white;
+}
+.ch2 i:hover{
+    color: white;
+    background-color:  rgb(0, 38, 207);
+    font-size: 30px;
+}
+
+.ch3:hover {
+    color:rgb(6, 146, 240);
+    background-color:  white;
+    font-size: 30px;
+}
+.forgot-password {
+    display: flex;
+    justify-content: flex-end; /* Aligns link to the right */
+    margin-bottom: 10px;
+}
+.forgot-password .forg {
+    text-decoration: none;
+    color: rgb(0, 107, 150);
+    font-size: 14px;
+}
+
+.forgot-password .forg:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+#log{
+    width: 90%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    color: azure;
+    background: linear-gradient(to right, rgba(32, 61, 190, 0.781), rgba(255, 72, 0, 0.918));
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    transition: transform 1s ease-in-out;
+ }
+ @keyframes colorPulse {
+    0% { background-color: rgb(255, 0, 0); }
+    50% { background-color: rgb(0, 47, 255); }
+    100% { background-color: rgb(8, 71, 0); }
+}
+
+ #log:hover{
+    animation: colorPulse 1s infinite; 
+ }

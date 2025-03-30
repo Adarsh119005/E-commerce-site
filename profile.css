@@ -1,0 +1,213 @@
+body {
+    padding-right: 0%;
+    margin-right: 0%;
+    padding-top: 200px !important;
+    background: #f3ebeb !important;
+}
+#navbar-container {
+    position: fixed;
+    padding-right: 0%;
+    margin-right: 0%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff; /* Ensure a visible background */ /* Add padding to avoid cutting off content */
+}
+
+.whole{
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.user{
+    height: auto;
+    width: 600px;
+    background-color: white;
+    box-shadow: #eeebeb;
+    box-sizing: border-box;
+    margin-left: 50px;
+    
+}
+
+.user img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.user li b {
+    font-size: 25px;
+    color: rgb(78, 71, 71);
+    padding-right: 10px;
+    padding-left: 0%;
+}
+.user ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    display: block;
+    padding-top: 20px;
+    margin-right: 10px;
+    
+}
+.user li i{
+    font-size: 20px;
+    color: rgb(3, 109, 151);;
+}
+.side1 {
+    text-align: center;
+}
+
+.side1 a:hover {
+    color: rgba(2, 128, 212, 0.979);
+}
+
+.user li a{
+    text-decoration: none;
+    color: rgb(78, 71, 71);
+}
+
+.use img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* Wishlist Container */
+.wishlist-container {
+    width: 100%;
+    margin-left: 10px;
+    background: #fff;
+    border-radius: 0px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Wishlist Header */
+.wishlist-header {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/* Wishlist Item */
+.wishlist-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+/* Product Image */
+.wishlist-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+/* Product Details */
+.product-info {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.product-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Price Details */
+.product-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.discount {
+    color: #1ca44c;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+/* Trash Icon */
+.remove-item {
+    color: #aaa;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.remove-item:hover {
+    color: #e74c3c;
+}
+
+/* Flexbox Layout */
+.wishlist-content {
+    display: flex;
+    align-items: center;
+}
+
+.wishlist-item a {
+    text-decoration: none;
+}
+
+.personal{
+    margin:10px;
+}
+
+/* Button Styling */
+.baty {
+    background: none;
+    border: none;
+    font-size: 15px;
+    color: rgb(9, 116, 158);
+    cursor: pointer;
+}
+
+.baty:hover {
+    text-decoration: underline;
+}
+
+/* Save Button Styling */
+.save-btn {
+    color: green;
+    font-weight: bold;
+}
+
+/* Input Field Styling */
+.p1 {
+    height: 50px;
+    width: 250px;
+    padding: 15px;
+    font-size: 15px;
+    font-family: Arial;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.p1:disabled {
+    background-color: #e9e9e9;
+    color: #666;
+}
+
+
+b{
+    font-size: 20px;
+}

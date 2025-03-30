@@ -1,0 +1,208 @@
+body {
+    padding-right: 0%;
+    margin-right: 0%;
+    padding-top: 200px !important;
+    background: #f3ebeb !important;
+}
+#navbar-container {
+    position: fixed;
+    padding-right: 0%;
+    margin-right: 0%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff; /* Ensure a visible background */ /* Add padding to avoid cutting off content */
+}
+
+
+.whole{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.user{
+    height: auto;
+    width: auto;
+   /* display: block; */
+   background-color: white;
+   border-radius: 8px;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+}
+
+.user img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.user li b {
+    font-size: 25px;
+    color: rgb(78, 71, 71);
+    padding-right: 10px;
+    padding-left: 0%;
+}
+.user ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    display: block;
+    padding-top: 20px;
+    margin-right: 10px;
+    
+}
+.user li i{
+    font-size: 20px;
+    color: rgb(3, 109, 151);;
+}
+.side1 {
+    text-align: center;
+}
+.user li a{
+    text-decoration: none;
+    color: rgb(78, 71, 71);
+}
+
+.use img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* Wishlist Container */
+.wishlist-container {
+    min-width: auto;
+    margin-left: 50px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Wishlist Header */
+.wishlist-header {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+/* Wishlist Item */
+.wishlist-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+/* Product Image */
+.wishlist-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+/* Product Details */
+.product-info {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.product-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Price Details */
+.product-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.discount {
+    color: #1ca44c;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+/* Trash Icon */
+.remove-item {
+    color: #aaa;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.remove-item:hover {
+    color: #e74c3c;
+}
+
+/* Flexbox Layout */
+.wishlist-content {
+    display: flex;
+    align-items: center;
+}
+
+.wishlist-item a {
+    text-decoration: none;
+}
+button{
+    background: none;
+    border: none;
+}
+.side1 a:hover{
+    color: rgb(9, 93, 219);
+}
+
+.not {
+    width: 70%;
+    margin: 20px auto;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.show img {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.log-in {
+    background-color: #025f8a;
+    width: 40%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+}

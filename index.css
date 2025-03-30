@@ -1,0 +1,250 @@
+    /* Add padding so content doesn't hide under navbar */
+    html {
+        scroll-padding-top: 150px; /* Adjust based on header height */
+    }
+body {
+    padding-right: 0%;
+    margin-right: 0%;
+    padding-top: 168px !important;
+    background: #f3ebeb !important;
+}
+@media (max-width: 768px) {
+    body {
+        padding-top: 180px !important;
+    }
+}
+#navbar-container {
+    position: fixed;
+    padding-right: 0%;
+    margin-right: 0%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff; /* Ensure a visible background */ /* Add padding to avoid cutting off content */
+}
+
+.carousel {
+    width: 100%; /* Auto width based on image resolution */
+    height: auto; /* Fixed height (adjust as needed) */
+    margin-top: 0px; /* Ensures it doesn't overflow */
+    object-fit: contain; /* Keeps the entire image visible without cropping */
+    display: block; 
+    margin: 0 auto; /* Centers the image if smaller than the container */
+}
+
+.carousel .carousel-inner{
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Image Container */
+.image-container {
+    text-align: center;
+    margin-left: 5%;
+}
+
+/* Circular Images */
+.image-container img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff; /* Blue border */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.image-container img:hover {
+    transform: scale(1.1);
+}
+
+/* Name below image */
+.image-container p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+   /* padding: 20px;*/
+}
+
+/* Individual Product Box */
+.product-card {
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.product-card:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Product Image */
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    position: relative;
+}
+
+/* Product Title */
+.product-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+    height: 40px; /* Fixed height for consistency */
+    overflow: hidden;
+}
+
+/* Price */
+.product-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #B12704;
+}
+
+/* Star Ratings */
+.star-rating {
+    color: #FFA41C;
+    margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 508px) {
+    .product-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.write {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 20px;
+}
+.squre {
+    text-align: center;
+    margin-left: 10px;
+    background-color: rgb(189, 186, 186);
+    height: 70px;
+    width: 250px;
+    align-items: center;
+    padding-top: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.squre p{
+    font-size: 11px;
+    margin-left: 40px;
+}
+
+.squre a {
+    margin: 0;
+    padding-inline:0;
+   
+}
+.squre:hover {
+    transform: scale(1.1);
+}
+
+.squre i{
+    color: rgb(214, 52, 79);
+    font-size: 25px;
+}
+
+body h2 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+
+.container {
+    padding-left: 0% !important;
+    padding-right: 0 !important;
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.image-container1 {
+    text-align: center;
+    display: block;
+    border-radius: 10%;
+    padding: 20px;
+    margin-top: 30px;
+    height: auto;
+    border: grey 1px solid;
+}
+
+.image-container1 img {
+    width: 80%; /* Ensures full width inside column */
+    display: block;
+    margin: 0 auto;
+    border-radius: 5%
+     /* Centers the image */
+}
+
+.truncated-text {
+    font-size: 16px;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color:black
+}
+div a {
+    text-decoration: none; /* Removes underline */
+    color: black; /* Sets text color to black */
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.copyright p{
+    color: white;
+}
+
+#bat{
+    background: none;
+    border: none;
+}
+.sebtn{
+    background: none;
+    border: none;
+}.sebtn{
+    background: none;
+    border: none;
+}

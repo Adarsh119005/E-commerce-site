@@ -1,0 +1,272 @@
+body {
+    padding-right: 0%;
+    margin-right: 0%;
+    padding-top: 200px !important;
+    background: #f3ebeb !important;
+}
+#navbar-container {
+    position: fixed;
+    padding-right: 0%;
+    margin-right: 0%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff; /* Ensure a visible background */ /* Add padding to avoid cutting off content */
+}
+
+.whole{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.user{
+    height: auto;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    margin-left: 50px;
+    
+}
+
+.user img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.user li b {
+    font-size: 25px;
+    color: rgb(78, 71, 71);
+    padding-right: 10px;
+    padding-left: 0%;
+}
+.user ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    display: block;
+    padding-top: 20px;
+    margin-right: 10px;
+    
+}
+.user li i{
+    font-size: 20px;
+    color: rgb(3, 109, 151);;
+}
+.side1 {
+    text-align: center;
+}
+
+.side1 a:hover {
+    color: rgba(2, 128, 212, 0.979);
+}
+
+.user li a{
+    text-decoration: none;
+    color: rgb(78, 71, 71);
+}
+
+.use img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+/* Wishlist Container */
+.wishlist-container {
+    width: 900px;
+    margin-left: 50px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    padding-left: 30px;
+}
+
+/* Wishlist Header */
+.wishlist-header {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+}
+
+/* Wishlist Item */
+.wishlist-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+/* Product Image */
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.address-container {
+    max-width: 900px;
+    background: white;
+    padding: 20px;
+    margin-left:70px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.add-address {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.add-address:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.address-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.address-details {
+    max-width: 85%;
+}
+
+.home-badge {
+    display: inline-block;
+    background: #ddd;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.phone {
+    font-weight: bold;
+}
+
+.address {
+    color: #555;
+    margin-top: 5px;
+}
+
+.options {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.butt{
+    align-items: center;
+    color: #007BFF;
+    font-weight: bold;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px dashed #007BFF;
+    border-radius: 5px;
+    width: fit-content;
+}
+.butt:hover {
+    background-color: #007BFF;
+    color: white;
+    border-radius: 10px;
+}
+
+.form-container {
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    position:relative;
+}
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+.input-container input {
+    width: 100%;
+    padding: 12px 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background: white;
+}
+.input-container label {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    padding: 0 5px;
+    font-size: 16px;
+    color: #999;
+    transition: 0.3s ease;
+}
+.input-container input:focus + label,
+.input-container input:not(:placeholder-shown) + label {
+    top: 0;
+    font-size: 12px;
+    color: #007BFF;
+}
+
+.input-container textarea {
+    width: 100%;
+    padding: 12px 10px;
+    height: 100px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background: white;
+}
+
+
+.input-container textarea:focus + label,
+.input-container textarea:not(:placeholder-shown) + label {
+    top: 0;
+    font-size: 16px;
+    color: #007BFF;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+#remove{
+    background: none;
+    border: none;
+}
+#remove i{
+    color: rgb(221, 39, 39);
+}
+
+#remove i:hover{
+    color: rgb(0, 139, 219);
+}

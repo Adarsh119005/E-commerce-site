@@ -1,0 +1,143 @@
+ /* Topmost Menu */
+ .topmost-menu {
+    background: #0d1b2a;
+    color: white;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+.topmost-menu i{
+    color: yellow;
+}
+.truck{
+    margin-left: 40px;
+}
+.topmost-menu a {
+    color: rgb(228, 205, 205);
+    margin-left: 10px;
+    text-decoration: none;
+}
+/* Main Navbar */
+.main-navbar {
+    min-height: 50px;
+    background: rgb(207, 192, 192);
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-bar {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    border: 2px rgb(36, 160, 237) solid;
+    border-radius: 5PX;
+    margin-right: 10px;
+}
+.search-bar input {
+    flex-grow: 1;
+    border-radius: 5px;
+}
+.search-bar button {
+    border-radius: 5px;
+    height:40px;
+}
+.account-info {
+    display: flex;
+    align-items: center;
+}
+
+b{
+    font-size:15px;
+    font-weight: 400;
+}
+
+.account-info i{
+    font-size: 20px;
+    color: #007bff;
+}
+.account-info a {
+    padding-left: 30px;
+    text-decoration: none;
+    color: black;
+}
+/* Secondary Navbar */
+.secondary-navbar {
+    background: #c5cbd1;
+    display: flex;
+}
+.nav-item .dropdown-menu {
+    display: none;
+}
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+.helpline i{
+    color: rgb(18, 127, 170);
+    font-size: 20px;
+}
+.nav-item.dropdown > .nav-link {
+background-color: #007bff; /* Bootstrap Primary Blue */
+color: white;
+padding: 10px 20px;
+border-radius: 5px;
+font-weight: bold;
+}
+
+.nav-item.dropdown > .nav-link:hover {
+background-color: #0056b3; /* Darker blue on hover */
+}
+.helpline {
+position: absolute;
+top: 10px;
+right: 15px;
+font-size: 14px;
+color: black;
+background-color: transparent;
+padding: 5px;
+font-weight: bold;
+}
+
+/* Mobile Toggle */
+@media (max-width: 600px) {
+.search-bar {
+    width: 70%;
+    border: 2px rgb(36, 160, 237) solid;
+    border-radius: 5PX;
+    margin-left: 20px;
+    }
+    .secondary-navbar .container {
+        display: flex;
+        height: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .helpline {
+        position: absolute;
+        top: 5px;
+        right: 15px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .navbar-toggler {
+        order: -1; /* Ensures toggle is on the right */
+        margin-right: auto; /* Moves the toggle button to the right side */
+        z-index: 1; /* Ensures toggle button is on top */
+    }
+    .navbar-collapse {
+        display: block;
+        justify-content: flex-start;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: column; /* Stacks items vertically */
+        align-items: flex-start;
+    }
+    .navbar-nav .nav-item {
+        margin: 5px 0;
+    }
+}
+

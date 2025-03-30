@@ -1,0 +1,239 @@
+body {
+    padding-right: 0%;
+    margin-right: 0%;
+    padding-top: 200px !important;
+    background: white !important;
+}
+#navbar-container {
+    position: fixed;
+    padding-right: 0%;
+    margin-right: 0%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff; /* Ensure a visible background */ /* Add padding to avoid cutting off content */
+}
+
+h2 {
+    color: rgba(3, 123, 170, 0.986);
+    margin-left: 40px;
+}
+.cart {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start; /* Aligns items at the top */
+}
+
+
+body {
+    background-color: #f1f3f6;
+}
+
+.cart-container {
+    width: 70%;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    float:left
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 25px;
+    
+}
+
+.cart-details {
+    flex-grow: 1;
+}
+
+.cart-details h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cart-details .price {
+    color: green;
+    font-weight: bold;
+}
+
+.cart-details .old-price {
+    text-decoration: line-through;
+    color: gray;
+    margin-left: 10px;
+}
+
+.cart-actions {
+    display: flex;
+    align-items: center;
+}
+
+.cart-actions button {
+    background: none;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.price-summary {
+    width: 25%;
+    background: white;
+    padding: 15px;
+    position: fixed;
+    right: 20px;
+    border-radius: 5px;
+    align-self: flex-start;
+}
+.price-summary h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.total-amount {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.place-order {
+    background-color: #00c3ff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+
+@media (max-width: 600px) {
+    .cart {
+        flex-direction: column;
+        align-items: center;
+    }
+    .price-summary {
+        width: 90%;
+        float: right;
+        position: relative;
+        background: white;
+        padding: 15px;
+        margin: 20px;
+        border-radius: 5px;
+    }
+    .cart-container {
+        width: 100%;
+        margin: 20px auto;
+        background: white;
+        padding: 15px;
+        border-radius: 5px;
+    }
+}
+
+.not {
+    width: 70%;
+    margin: 20px auto;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.show img {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.log-in {
+    background-color: #025f8a;
+    width: 40%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+}
+
+.quantity{
+    text-align: center;
+    width: 40px;
+    border: 1px solid rgb(5, 95, 131);
+}
+
+.crease{
+    width: 30px;
+    color: rgb(0, 30, 201);
+    background-color: cadetblue;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.login {
+    border: 2px solid #000;
+    padding-left: 35px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.big-text{
+    font-size: 30px;
+    color: #0ab813;
+}
+.logname{
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+.address {
+    border: 2px solid #000;
+    padding-left: 35px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    margin-top: 50px;
+}
+.address-details{
+    margin: 10px;
+}
+.busy {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #a1a1a1;
+}
+.busy #small{
+    height: 30px;
+    width: 30px;
+}
+.busy i{
+    color:#0ab813
+}
+
+.place-order button{
+    width: 100%;
+    background: none;
+    border: none;
+}
